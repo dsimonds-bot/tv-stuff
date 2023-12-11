@@ -9,10 +9,10 @@ theta_range = np.arange(0, 15, 1)
 parser = argparse.ArgumentParser(description="Gather numeric inputs.")
 
 parser.add_argument(
-    "--dist", type=int, help="Distance from your face to the TV's wall."
+    "--dist", type=str, help="Distance from your face to the TV's wall. Add m or ft to the number e.g. 10m"
 )
 parser.add_argument(
-    "--height", type=int, help="How far your face is off the ground while watching TV."
+    "--height", type=str, help="How far your face is off the ground while watching TV. Add m or ft to the number e.g. 4ft."
 )
 args = parser.parse_args()
 
