@@ -25,7 +25,7 @@ tv_height = dist*tan($\theta$) + height
 ```
 
 With the above established, all you need to know how high to mount your TV is how far your face is from the TV's wall, 
-and how high your face is off the ground while you're sleeping.
+and how high your face is off the ground while you're sleeping. Or sitting. Or however you position yourself while watching. 
 
 ### How to Use
 This is designed to be interactive from the command line. Simple pass in arguments for `dist` and `height` as shown
